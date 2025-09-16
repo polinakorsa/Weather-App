@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0,
+          maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>My Weather App</title>
+</head>
+<body>
+
+<div class="current-weather-details">
+
+<div class="heading-container">
+<h1>Current Weather App</h1>
+<p class="app-intro">This app allows you to explore the weather of cities around the world or receive your current weather by geolocation. </p>
+</div>
+
+
+<div class="wrapper-details">
+
+<div class="city-total-container">
+
+<div class="city-select-container">
+    <label for="city-select"  class="city-btn">Choose a city:</label>
+    <select id="city-select" class="city-selector">
+        <option value="San Francisco">San Francisco</option>
+        <option value="New York">New York</option>
+        <option value="London">London</option>
+        <option value="Paris">Paris</option>
+        <option value="Berlin">Berlin</option>
+    </select>
+</div>
+
+<div class="city-weather-container">
+
+    <p id="weather-summary" class="summary"></p>
+    <ul class="weather-list" id="weather-list">
+        <li id="current-humidity"></li>
+        <li id="current-pressure"></li>
+        <li id="current-temp"></li>
+        <li id="current-wind-speed"></li>
+    </ul>
+</div>
+    <button id="get-weather-btn" class="weather-btn">Get city weather</button>
+
+</div>
+
+
+
+<div class="curr-weather-container">
+
+
+    <div class="curr-weather-list-container">
+    <p id="curr-weather-summary" class="curr-summary"></p>
+    <ul class="curr-weather-list" id="curr-weather-list">
+       <li id="current-location-humidity"></li>
+       <li id="current-location-pressure"></li>
+       <li id="current-location-temp"></li>
+       <li id="current-location-wind-speed"></li>
+    </ul>
+    </div>
+
+    <button id="get-curr-weather-btn" class="curr-weather-btn">Get my weather</button>
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="speech-container">
+
+<p id="speech-summary" class="speech-command">Get city weather by city name or your current weather with command: "Get my weather"</p>
+<button id="speech-city-btn" class="speech-btn">🗣️Press record!</button>
+
+</div>
+
+
+
+<script src="script.js"></script>
+<script src="curr-weather.js"></script>
+<script src="speech.js"></script>
+
+</body>
+</html>
+

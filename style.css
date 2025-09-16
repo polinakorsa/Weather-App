@@ -1,0 +1,210 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),  url("pictures/bhautik-patel-5tzhoOGR6J8-unsplash.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts copy/Paperlogy/Paperlogy-7Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyCustomFont2';
+    src: url('fonts copy/Paperlogy/Paperlogy-3Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.heading-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+    max-height: 160px;
+    color: aliceblue;
+    text-align: left;
+    margin-left: 40px;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: "MyCustomFont", serif;
+}
+
+
+.app-intro{
+    margin-top: -50px;
+    font-family: "MyCustomFont2", serif;
+}
+
+.wrapper-details {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+
+.city-total-container, .curr-weather-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 30px;
+    height: 390px;
+    width: 300px;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(245, 245, 245, 0.6), rgba(70, 120, 180, 0.6),rgba(100, 100, 100, 0.6))
+}
+
+
+.city-select-container, .curr-weather-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 27px;
+}
+
+.city-btn,
+.city-selector {
+    display: flex;
+    font-family: 'MyCustomFont', serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 19px;
+}
+
+.city-selector {
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    padding: 5px;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+}
+
+
+.city-weather-container, .curr-weather-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 185px;
+    justify-content: space-between;
+    padding: 23px 0;
+}
+
+.summary, .curr-summary {
+    display: flex;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    color: #1a2a3a;
+    font-family: MyCustomFont, serif;
+    text-transform: capitalize;
+    margin-block-start:0;
+    margin-block-end: 0;
+}
+
+
+.weather-list, .curr-weather-list {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: MyCustomFont, serif;
+    font-size: 16px;
+    color: azure;
+}
+
+
+.weather-btn, .curr-weather-btn{
+    border-radius: 40px;
+    background: linear-gradient(45deg, #1a52e6, #3b4b5c);
+    font-family: 'MyCustomFont', serif;
+    font-size: 15px;
+    color: azure;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+.curr-weather-container{
+    margin-block-start:0;
+    margin-block-end: 0;
+}
+
+
+.curr-weather-list-container{
+    margin-top: 78px;
+}
+
+.speech-container{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+
+.speech-btn{
+    border-radius: 20px;
+    border: 1px solid black;
+    background: linear-gradient(45deg, #3b4b5c, #1a52e6);
+    font-family: 'MyCustomFont', serif;
+    font-size: 17px;
+    color: aliceblue;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.speech-command{
+    padding: 0;
+    font-family: MyCustomFont, serif;
+    color: #cccccc;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
