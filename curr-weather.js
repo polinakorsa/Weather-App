@@ -29,7 +29,6 @@ function getCurrWeatherData (){
         const currWeatherData = await fetchCurrWeatherDataFromAPI(latitude, longitude);
         renderCurrWeatherData(currWeatherData);
     }, (error) => {
-        console.log('Error getting geolocation', error);
     })
 }
 
@@ -39,7 +38,6 @@ async function fetchCurrWeatherDataFromAPI(latitude, longitude) {
         (`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY2}&units=metric`)
         return response.json();
     } catch (error) {
-        console.error('Error fetching weather by API', latitude, longitude);
     }
 }
 

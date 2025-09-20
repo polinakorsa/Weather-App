@@ -16,7 +16,6 @@ speechButton.addEventListener("click", () => recognition.start());
 recognition.addEventListener("result", (event) => {
     const [result] = event.results;
     const transcript = result[0].transcript;
-    console.log(`Result received: ${transcript}`);
     matchCityToTranscript(transcript);
     matchCurrentWeatherToTranscript(transcript)
 });

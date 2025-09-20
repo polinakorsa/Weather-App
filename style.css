@@ -6,21 +6,21 @@ html, body {
 }
 
 body {
-   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),  url("pictures/bhautik-patel-5tzhoOGR6J8-unsplash.jpg") no-repeat center center;
+   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),  url("images/bhautik-patel-5tzhoOGR6J8-unsplash.jpg") no-repeat center center;
     background-size: cover;
 }
 
 
 @font-face {
     font-family: 'MyCustomFont';
-    src: url('fonts copy/Paperlogy/Paperlogy-7Bold.ttf');
+    src: url('fonts/Paperlogy/Paperlogy-7Bold.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyCustomFont2';
-    src: url('fonts copy/Paperlogy/Paperlogy-3Light.ttf');
+    src: url('fonts/Paperlogy/Paperlogy-3Light.ttf');
     font-weight: normal;
     font-style: normal;
 }

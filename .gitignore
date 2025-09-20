@@ -1,4 +1,5 @@
 .idea
 
-/pictures
-/fonts-copy
+/images
+fonts/
+.DS_Store/
